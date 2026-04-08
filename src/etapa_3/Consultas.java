@@ -84,7 +84,7 @@ public class Consultas extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void voltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltarActionPerformed
-        System.exit(0);
+        dispose();
     }//GEN-LAST:event_voltarActionPerformed
 
     /**

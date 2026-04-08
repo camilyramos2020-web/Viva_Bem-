@@ -80,7 +80,7 @@ public class Diario extends javax.swing.JFrame {
             }
         });
 
-        sair.setText("Sair");
+        sair.setText("Voltar");
         sair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sairActionPerformed(evt);
@@ -200,7 +200,7 @@ public class Diario extends javax.swing.JFrame {
     }//GEN-LAST:event_salvarActionPerformed
 
     private void sairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sairActionPerformed
-        System.exit(0);
+       dispose();
     }//GEN-LAST:event_sairActionPerformed
 
     /**
